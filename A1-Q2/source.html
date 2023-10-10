@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1 col-lg-4 row1div">
+                <img  id="logo" src="./peopleperhour.png"alt="logo image">                    
+            </div>
+            <div class="col-lg-2 d-none d-lg-block ">
+                <select  class="searchtool"  >
+                    <option>Search</option>
+                    <option>Search Offers</option>
+                    <option>Search Freelancers</option>
+                    <option>Search Projects</option>
+                </select> 
+            </div>
+            <div class="col-lg-2 d-none d-lg-block"><a id="hw" class="ref" href="https://www.peopleperhour.com/how-it-works">How it works?</a></div>
+            <div class="col-lg-1 d-none d-lg-block"><a id="lgin" class="ref" href="https://www.peopleperhour.com/site/login">LogIn</a></div>
+            <div class="col-lg-1 d-none d-lg-block"><a id="sgup" class="ref" href="https://www.peopleperhour.com/site/register">SignUp</a></div>
+            <div class="col-lg-1 d-none d-lg-block" ><a class="free-lancer" href="https://www.peopleperhour.com/site/register#freelancer">Freelancer?</a></div>
+            <a href="#sidebar"  data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                <img  id="img-side" src="./sidebar.png" alt="image for sidebar">
+            </a>
+            <div class="offcanvas offcanvas-end" table="-1" id="sidebar" aria-labelledby="sidebar-label">
+                <div class="offcanvas-header">
+                    <button type="close" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>    
+                <div class="offcanvas-body">
+                    <select  class="searchtool"  >
+                        <option>Search</option>
+                        <option>Search Offers</option>
+                        <option>Search Freelancers</option>
+                        <option>Search Projects</option>
+                    </select> 
+                    <br><hr>
+                    <a class="sidebarcontent" href="https://www.peopleperhour.com/how-it-works">How it works?</a>
+                    <br><hr>
+                    <a  class="sidebarcontent" href="https://www.peopleperhour.com/site/login">LogIn</a>
+                    <br><hr>
+                    <a class="sidebarcontent"  href="https://www.peopleperhour.com/site/register">SignUp</a>
+                    <br><hr>
+                    <a class="sidebarcontent free-lancer" href="https://www.peopleperhour.com/site/register#freelancer">Freelancer?</a>
+                </div>
+            </div>
+            
+        </div>
+    <hr class="d-none d-lg-block">
+    <div class="row" id="categoryrow">
+        <div class=" col-lg-2 categories" id="c1">
+                <select>
+                    <option>Technology and Programming</option>
+                    <option>Programming & Coding</option>
+                    <option>Data Science & Analysis</option>
+                    <option>Databases</option>
+                    <option>Social Media App</option>
+            </select>  
+        </div>
+        <div class=" col-lg-2  categories" id="c2">
+            <select >
+                <option>Writing and Translation</option>
+                <option>Tranlation</option>
+                <option>Copywriting</option>
+                <option>Proofreading</option>
+                <option>Transcription</option>
+            </select>          
+        </div>
+        <div class=" col-lg-2  categories">
+            <select >
+                <option>Marketing, Branding and Sales</option>
+                <option>Surveys</option>
+                <option>Sales and Calls</option>
+                <option>Public Relations</option>
+                <option>Funds Raising</option>
+            </select>          
+        </div>
+        <div class=" col-lg-2  categories" id="c4">
+            <select >
+                <option>Digital Marketting</option>
+                <option>SEM google ads and PPC</option>
+                <option>Conversion Optimization</option>
+                <option>Web Analytics</option>
+                <option>Growth Hacking</option>
+            </select>          
+        </div>
+        <div class=" col-lg-2 categories">
+            <select >
+                <option>Videos, Photos and Images</option>
+                <option>Videography</option>
+                <option>Photojournalism</option>
+                <option>Image editting</option>
+            </select>          
+        </div>
+
+        <div class=" col-lg-2  categories" id="c6">
+            <select >
+                <option>Social Media</option>
+                <option>Community Management</option>
+                <option>Snapchat Marketting</option>
+                <option>Pinterest Marketting</option>
+                <option>Twitter Marketting</option>
+
+            </select>          
+        </div>
+    </div> 
+    <div class="col-lg-2 " id="sm-view"> 
+        <div id="inner-sm-view">
+            <select>
+                <option>Browse by Category</option>
+                <optgroup label="Technology & Programming">Technology & Programming</optgroup>
+                    <option>Programming & Coding</option>
+                    <option>Data Science & Analysis</option>
+                    <option>Databases</option>
+                    <option>Social Media App</option>
+                <optgroup label="Writing & Translation">Writing & Translation</optgroup>
+                    <option>Tranlation</option>
+                    <option>Copywriting</option>
+                    <option>Proofreading</option>
+                    <option>Transcription</option>
+                <optgroup label="Digital Marketing">Digital Marketing</optgroup>
+                    <option>SEM google ads and PPC</option>
+                    <option>Conversion Optimization</option>
+                    <option>Web Analytics</option>
+                    <option>Growth Hacking</option>
+                <optgroup label="Video, Photo & Image">Video, Photo & Image</optgroup>
+                    <option>Videography</option>
+                    <option>Photojournalism</option>
+                    <option>Image editting</option>
+            </select>
+        </div>
+    </div>
+    <hr class="d-none d-lg-block">
+
+    <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./homepageimg.png" class="d-block w-100 carouselimg" alt="slider image 1" >
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./jars.png" class="d-block w-100 carouselimg" alt="slider image 2">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./bars.jpg" class="d-block w-100 carouselimg" alt="slider image 3">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./jars.jpg" class="d-block w-100 carouselimg" alt="slider image 4">
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button> 
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+    </div>
+    <div id="para-div">
+        <p id="main-para-1">
+            Make bright 
+        </p>
+        <p id="main-para-2">ideas happen</p>
+        <p id="sub-para-1">Access global talent on the freelancer website trusted by</p>
+        <p id="sub-para-2"> over 1 million businesses worldwide.</p>
+    </div>
+    <div>
+        <input id="search-bar" type="text" role="combobox" placeholder="  Try: &quot;Web Development&quot;">
+        <button id="searchbutton" > <img src="./search.png" alt="search button symbol"> </button>
+    </div>
+    <div class="worker-card">
+        <br>
+        <img src="./profilepicture.jpg" alt="profile picture"><br>
+        <label>Web Developer</label>
+        <p>Martin C.</p>
+        <p>⭐️ 5.0 (178)</p>
+    </div>
+
+
+</body>
+</html>
